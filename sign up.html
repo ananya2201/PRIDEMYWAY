@@ -1,0 +1,82 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> SIGN UP </title>  
+<style>   
+Body {  
+  font-family: Montserrat, Helvetica, sans-serif;  
+  font-size: larger;
+  background-image: url("https://www.pixel4k.com/wp-content/uploads/2021/03/abstract-4k_1616870926-2048x1152.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+button {   
+       background-color: #471d12;   
+       width: 100%;
+       position: relative;  
+        color: rgb(235, 153, 60);   
+        padding: 30 px;   
+        margin: 20px 20px;   
+        border: none;   
+        cursor: pointer;   
+        border-radius: 13 px;
+         }   
+ form {   
+        border: 3px solid #000000;
+        border-radius: 13 px;   
+    }   
+ input[type=text], input[type=password], input[type=pronouns], input[type=profession], input[type=info], input[type=about]{   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid green;   
+        box-sizing: border-box;   
+        border-radius: 13;
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+  .cancelbtn {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    }   
+        
+     
+ .container {   
+        padding: 50 px;   
+        background-color: rgb(207, 212, 214);  
+        opacity: 0.8;
+        border-radius: 50;
+    }   
+</style>   
+</head>    
+<body >    
+    <center> <h1>Welcome user! </h1> </center>   
+    <br>
+    <center><h3>Enter your details below:</h3></center>
+    <form>  
+        <div class="container">   
+            <label>Enter a username: </label>   
+            <input type="text" placeholder="Enter Username" name="username" required>  
+            <label>Enter your password : </label>   
+            <input type="password" placeholder="Enter Password" name="password" required> 
+            <label>Confirm password: </label> <br>
+            <input type="password" placeholder="Confirm Password" name="password" required> <br>
+            <label>What are your preferred pronouns</label> <br>
+            <input type="pronouns" placeholder="Enter your pronouns"> <br>
+            <label>What do you do for a living </label> <br>
+            <input type="profession" placeholder="Enter profession"> <br>
+            <label> What are your interests *so you can connect with people like you*</label> <br>
+            <input type="about" placeholder="Your interests"><br>
+            <label> Tell us something about yourself</label>  <br>
+            <input type="info" placeholder="About you"> <br>
+            <button type="submit">Sign in</button>   
+            <input type="checkbox" checked="checked"> Remember me   
+            <button type="button" class="cancelbtn"> Cancel</button>     
+        </div>   
+    </form>     
+</body>     
+</html>  
